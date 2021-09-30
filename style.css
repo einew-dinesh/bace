@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap');
 
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -7,11 +9,15 @@
 body {
     background-image: url('img/paper-bg.jpg');
   }
+/* .top{
+    
+} */
 
   header{display:flex;
     flex-flow: column;
     text-decoration: none;
     color: #6c5c46;
+    /* tex */
     text-shadow: 0 1px 0 #f7e4c8;
     justify-content: center;
     align-items: center;
@@ -39,19 +45,22 @@ nav ul{
     display: flex;
     justify-content:left;
     list-style-type: none;
-    color: white;
     
 }
 nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1vh 1vw;
     border-right:2px solid white;
     
 }
 nav ul li:first-child{
     border-left:2px solid white;
-
+    
 }
 nav ul li a{
+    
     text-decoration: none;
     color: #6c5c46;
 }
@@ -118,4 +127,48 @@ footer{
     background-color: rgba(255, 255, 255, 0.322);
 
     
+}
+
+@media only screen and (max-width: 1000px){
+    header{
+        width: 100vw;
+        font-size: 2vw;
+        padding: 1vh 0;
+
+
+    }
+    nav{
+        width: 100vw;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content:space-evenly;
+        }
+    nav ul li{
+        width:25vw
+    }
+    nav ul li a{
+        font-size: 4vw;
+    }
+
+    .cont1{
+        display: none;
+        
+    }
+    .cont2{
+        width: 100vw;
+        padding: 2vh;
+    }
+    .cont3{
+        display:none;
+        
+    }
+    img{
+        width: 60%;
+    }
+    footer{
+        font-size: 3vw;
+        height: 3vh;
+    }
 }
