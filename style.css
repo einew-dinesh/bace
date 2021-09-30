@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url('img/paper-bg.jpg');
+  }
+
+  header{display:flex;
+    flex-flow: column;
+    text-decoration: none;
+    color: #6c5c46;
+    text-shadow: 0 1px 0 #f7e4c8;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+    background-color: rgba(255, 255, 255, 0.322);
+    font-family: Alegreya;
+    width: 60vw;
+    margin: auto;
+    /* background-size: 6vw;
+    background-image: url('Watercolor-PNG-Transparent-HD-Photo.png'); */
+    }
+
+
+nav{
+    padding: 0.5vh 0vw;
+    width: 60vw;
+    margin: auto;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+
+    
+}
+nav ul{
+    display: flex;
+    justify-content:left;
+    list-style-type: none;
+    color: white;
+    
+}
+nav ul li{
+    padding: 1vh 1vw;
+    border-right:2px solid white;
+    
+}
+nav ul li:first-child{
+    border-left:2px solid white;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #6c5c46;
+}
+.active{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+main{
+    display: flex;
+    flex-flow: row;
+
+}
+.cont1{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    color: #644c33;
+    font: bold 1.35em/1em Georgia,"Times New Roman",Times,serif;
+}
+.cont2{
+    width: 60vw;
+    /* background-color: rgb(27, 164, 255); */
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    font: .93em/1.5em Georgia,"Times New Roman",Times,serif;
+    color: #453320;
+
+    
+}
+.cont3{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    color: #644c33;
+    font: bold 1.35em/1em Georgia,"Times New Roman",Times,serif;
+}
+
+main div div h1{
+    color: #453320;
+    font: bold 1.8em/1em Georgia,"Times New Roman",Times,serif;
+}
+p{
+    padding: 0.5vh 0;
+    
+}
+img {
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 3px solid white;
+  }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.322);
+
+    
+}
