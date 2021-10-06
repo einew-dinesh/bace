@@ -120,14 +120,90 @@ img {
   }
 
 footer{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     height: 5vh;
     background-color: rgba(255, 255, 255, 0.322);
+    
 
+}
+
+/* Events */
+
+.mcont{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+.vcont{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 60vw;
+    /* border:2px solid blue; */
+    padding: 1vh 0;
+}
+
+.banner{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 59vw;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.banner img:hover{
+    transform: scale(1.09)
     
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 19vw;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+.card img:hover{
+    transform: scale(1.15)
+}
+  .price {
+    color: grey;
+    font-size: 1.5em;
+  }
+  
+  .card button {
+  
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    /* background-color: #000; */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+.closed{
+    background-color: red;
+}
+.open{
+    background-color: green;
+}
+
+
+
+    
+
 
 @media only screen and (max-width: 1000px){
     header{
@@ -171,4 +247,17 @@ footer{
         font-size: 3vw;
         height: 3vh;
     }
+
+/* events */
+.vcont{
+    width: 100vw;
+    flex-flow: column;
+}
+.banner{
+    max-width: 90vw;
+}
+.card{
+    max-width: 90vw;
+}
+
 }
